@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+    user-zoom: none;
+}
+h1{
+    border-radius: 0px;
+    font-size:15px;
+    font-family: Arial;
+    text-align: center;
+    color: red;
+    user-zoom: none;
+}
+h2{
+    text-decoration-line: underline overline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(255, 0, 0);
+    border-radius: 0px;
+    font-size: 50px;
+    font-weight: 10;
+    font-family:Impact;
+    text-align: center;
+    color: red;
+    user-zoom: none;
+}
+h3{
+    text-decoration-line: underline;
+    text-decoration-style:dashed;
+    text-decoration-color: rgb(255, 0, 0);
+    font-size: 200px;
+    border-radius: 0px;
+    font-family:Impact;
+    text-align: center;
+    color: red;
+    letter-spacing: 0px;
+    line-height: 0px;
+    user-zoom: none;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    user-zoom: none;
+}
+.center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    user-zoom: none;
+}
+.center3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+    user-zoom: none;
+}
+.right{
+    display: block;
+    margin-left:85%;
+    margin-right: auto;
+    width: 15%;
+    user-zoom: none;
+}
+.left{
+    display: block;
+    margin-left:auto;
+    margin-right: 85%;
+    width: 15%;
+    user-zoom: none;
+}
+h4{
+    font-weight: lighter;
+    border-radius: 0px;
+    font-size:100px;
+    font-family: Arial;
+    text-align: right;
+    color: red;
+    user-zoom: none;
+}
+textarea{
+    text-align: center;
+    border: x;
+    font-family: Arial;
+    background-color: black;
+    color: red;
+    border-color: red;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    resize: none;
+    user-select: text;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    user-zoom: none;
+}
+button{
+    width: auto;
+    border-style:groove;
+    text-align: center;
+    font-family: Impact;
+    background-color: black;
+    color: red;
+    border-color: red;
+    font-size: 50px;
+    border-width: 1px;
+    user-zoom: none;
+}
+*:focus {
+    outline: none;
+    user-zoom: none;
+}
+button:active {
+    background-color: rgb(55, 0, 0);
+    transform: translateY(1px);
+    user-zoom: none;
+}
+.marquee {
+    margin: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    user-zoom: none;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+    user-zoom: none;
+}
+.marquee2 span {
+    animation-delay: 15s;
+    user-zoom: none;
+}
+@keyframes marquee {
+    100% {
+        transform: translate(0, 0);
+        user-zoom: none;
+      }
+    0% {
+      transform: translate(-100%, 0);
+      user-zoom: none;
+    }
+}
+p{
+    border-radius: 0px;
+    font-size:15px;
+    font-family: Arial;
+    text-align: center;
+    color: red;
+    user-zoom: none;
+}
+form{
+    border-width: 0px;
+    text-align: center;
+    border-style: groove;
+    background-color: black;
+    border-radius: 0px;
+    font-size:15px;
+    font-family: Arial;
+    text-align: center;
+    color: red;
+    user-select:contain;
+    user-zoom: none;
+}
+input{
+    border-width: 0px;
+    text-align: center;
+    border-style: groove;
+    background-color: black;
+    border-radius: 0px;
+    font-size:15px;
+    font-family: Arial;
+    text-align: center;
+    color: red;
+    user-select:contain;
+    user-zoom: none;
+}
+.marquee{
+    font-size: 49.96px;
+    font-family:Impact;
+    text-align: center;
+    color: red;
+    font-size-adjust: none;
+    user-zoom: none;
+}
